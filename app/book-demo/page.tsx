@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 
 import { Button } from "@/components/ui/button"
@@ -62,7 +63,7 @@ export default function BookDemoPage() {
               See ProfitHub in Action
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12">
-              Book a personalized demo to see how ProfitHub can transform your sales process and boost your team's productivity.
+              Book a personalized demo to see how ProfitHub can transform your sales process and boost your team&apos;s productivity.
             </p>
           </div>
         </section>
