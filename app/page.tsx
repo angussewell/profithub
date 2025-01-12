@@ -524,7 +524,7 @@ export default function Page() {
               Ready for a smarter way to&nbsp;work?
             </h2>
             <p className="text-xl md:text-2xl text-gray-400 mb-10 font-light tracking-wide leading-relaxed">
-              Join the businesses who've already transformed their workflow with Profithub.
+              Join the businesses who&apos;ve already transformed their workflow with Profithub.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-primary to-blue-500 hover:opacity-90 text-white px-8 py-4 text-lg rounded-full" asChild>

@@ -284,7 +284,7 @@ export default function IntegrationsPage() {
           </div>
 
           <div className="mt-24 text-center pb-32">
-            <p className="text-xl text-gray-400 mb-8">Don't see what you need?</p>
+            <p className="text-xl text-gray-400 mb-8">Don&apos;t see what you need?</p>
             <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg rounded-full" asChild>
               <Link href="/book-demo">Request an Integration →</Link>
             </Button>

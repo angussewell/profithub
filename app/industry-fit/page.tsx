@@ -103,7 +103,7 @@ export default function IndustryFitPage() {
         <div className="max-w-2xl mx-auto px-6">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-black mb-4">Check Your Industry Fit</h1>
-            <p className="text-xl text-gray-400">Tell us about your business and we'll show you how ProfitHub can help.</p>
+            <p className="text-xl text-gray-400">Here&apos;s how ProfitHub adapts to your industry&apos;s unique needs</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">

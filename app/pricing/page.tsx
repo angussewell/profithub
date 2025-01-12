@@ -43,7 +43,7 @@ export default function Page() {
           <div className="relative max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h1 className="text-4xl md:text-6xl font-black mb-6">Simple, transparent pricing</h1>
-              <p className="text-xl text-gray-400 max-w-2xl mx-auto">Choose the plan that's right for your business</p>
+              <p className="text-xl text-gray-400 max-w-2xl mx-auto">Choose the plan that&apos;s right for your business</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
