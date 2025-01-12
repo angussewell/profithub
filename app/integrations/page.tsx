@@ -53,14 +53,6 @@ const QuickBooksIcon = () => (
   <Image src="/integrations/quickbooks.svg" alt="QuickBooks" width={24} height={24} />
 );
 
-const PayKickstartIcon = () => (
-  <Image src="/integrations/paykickstart.svg" alt="PayKickstart" width={24} height={24} />
-);
-
-const ChargeOverIcon = () => (
-  <Image src="/integrations/chargeover.svg" alt="ChargeOver" width={24} height={24} />
-);
-
 const TwilioIcon = () => (
   <Image src="/integrations/twilio.svg" alt="Twilio" width={24} height={24} />
 );
@@ -121,14 +113,13 @@ const TikTokIcon = () => (
   <Image src="/integrations/tiktok.svg" alt="TikTok" width={24} height={24} />
 );
 
-const categories = [
+const integrationCategories = [
   {
-    name: 'Payment & Accounting',
+    title: 'Payment & Accounting',
+    description: 'Connect your payment and accounting tools to automate your financial workflows.',
     integrations: [
       { name: 'Square', icon: <SquareIcon /> },
       { name: 'QuickBooks', icon: <QuickBooksIcon /> },
-      { name: 'PayKickstart', icon: <PayKickstartIcon /> },
-      { name: 'ChargeOver', icon: <ChargeOverIcon /> },
     ]
   },
   {
@@ -267,10 +258,10 @@ export default function IntegrationsPage() {
           </div>
 
           <div className="space-y-24">
-            {categories.map((category, i) => (
+            {integrationCategories.map((category, i) => (
               <div key={i} className="relative">
                 <div className="mb-12">
-                  <h2 className="text-2xl font-bold mb-4">{category.name}</h2>
+                  <h2 className="text-2xl font-bold mb-4">{category.title}</h2>
                   <div className="h-px bg-gradient-to-r from-primary/50 via-primary/10 to-transparent" />
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
