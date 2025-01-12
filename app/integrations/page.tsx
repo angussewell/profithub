@@ -121,6 +121,8 @@ const integrationCategories = [
     integrations: [
       { name: 'Square', icon: <SquareIcon /> },
       { name: 'QuickBooks', icon: <QuickBooksIcon /> },
+      { name: 'PayKickstart', icon: <PlaceholderIcon /> },
+      { name: 'ChargeOver', icon: <PlaceholderIcon /> },
     ]
   },
   {
